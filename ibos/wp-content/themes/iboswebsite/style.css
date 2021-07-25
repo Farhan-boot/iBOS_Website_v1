@@ -1,0 +1,112 @@
+@charset "UTF-8";
+/*
+Theme Name: iBos limited
+Theme URI: http://ibosbd.com/
+Author: iBOS Limited
+Author URI: https://www.ibos.io/
+Description: Our 2021 theme is develop by fs-jesy
+Requires at least: 4.9.6
+Requires PHP: 5.2.4
+Version: 1.0
+License: iBOS Limited
+License URI: https://www.ibos.io/
+Text Domain: ibosbd
+Tags: one-column, flexible-header, accessibility-ready, custom-colors, custom-menu, custom-logo, editor-style, featured-images, footer-widgets,
+rtl-language-support, sticky-post, threaded-comments, translation-ready, block-patterns
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others. The Fastest Growing Software Company In Bangladesh
+
+*/
+
+
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+
+img.wp-post-image {
+min-width: 100% !important;
+}
+
+
+
+
+/*--------------------------------------------------------------
+# Social Share
+--------------------------------------------------------------*/
+
+
+.social-share-button {
+    font-size: 0.7rem;
+    line-height: 0.7rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin: 0 0 60px;
+    z-index: 2;
+    position: relative;
+    text-align: center;
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-content: flex-start;
+}
+
+.social-share-button li {
+    height: auto;
+    flex: 0 1 auto;
+    width: calc(25% - 1px);
+    margin-right: 1px;
+}
+
+.social-share-button li:last-child {
+    width: 25%;
+    margin-right: 0;
+}
+
+.social-share-button svg {
+    fill: #fff;
+    margin-right: 5px;
+    width: 16px;
+    height: 16px;
+}
+
+.share-googleplus svg {
+    width: 20px;
+    height: 16px;
+}
+
+.social-share-button a {
+    display: block;
+    padding: 12px 12px 10px;
+    text-align: center;
+    color: #fff;
+    font-size: .9rem;
+    letter-spacing: 5px;
+    margin-right: 10px;
+}
+
+.social-share-button li:first-child a {
+    border-radius: 3px 0 0 3px;
+}
+
+.social-share-button li:last-child a {
+    border-radius: 0 3px 3px 0;
+}
+
+.share-twitter	{
+    background: #1da1f2;
+}
+
+.share-facebook	{
+    background: #3b5998;
+}
+
+.share-googleplus	{
+    background: #db4437;
+}
+
+.share-linkedin	{
+    background: #b5071a;
+}
